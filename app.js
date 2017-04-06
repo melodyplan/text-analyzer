@@ -7,6 +7,14 @@ function WordCount(str) {
 console.log(WordCount) /*okay this isn't correct, but note to self, to edit this
 so it syncs with the Word Count in html*/
 
+//need to figure out a function for unique word count...
+
+var avgWordLength = function(words) {
+    var analyzedWords = words.split(" ");
+    var avgLength = 0;
+        for (var i = 0; i < word)
+};
+
 
 
 $(document).ready(function() {
