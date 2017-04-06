@@ -1,19 +1,19 @@
 //need to add CSS classes for DOM manipulation layer to target (and use the js- prefix)
 
-function WordCount(str) {
-    return str.split(" ").length;
-}
-
-console.log(WordCount) /*okay this isn't correct, but note to self, to edit this
-so it syncs with the Word Count in html*/
-
 //need to figure out a function for unique word count...
 
-var avgWordLength = function(words) {
+var textAnalyzer = function(words) {
+    //var uniqueWordCount = ?? - figure this out tomorrow? later?
+    var wordCount = words.split(" ").length;
     var analyzedWords = words.split(" ");
-    var avgLength = 0;
-        for (var i = 0; i < word)
+    var avgWords = 0;
+    for (var i = 0; i < wordCount.length; i++) {
+        avgWords += analyzedWords[i].length;
+    }
+    var avgLength = avgWord / wordCount;
 };
+
+//ugh how to connect this to html and not just console.log it though? 
 
 
 
