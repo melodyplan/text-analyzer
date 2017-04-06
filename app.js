@@ -1,4 +1,14 @@
 //need to add CSS classes for DOM manipulation layer to target (and use the js- prefix)
+
+function WordCount(str) {
+    return str.split(" ").length;
+}
+
+console.log(WordCount) /*okay this isn't correct, but note to self, to edit this
+so it syncs with the Word Count in html*/
+
+
+
 $(document).ready(function() {
     /*$('#hidden text-report').css({
 
