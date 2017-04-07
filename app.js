@@ -17,6 +17,9 @@ var textAnalyzer = function(words) {
 
 var userText = [];
 
+//probs should have something that actually outputs the count of the unique words...
+var uniqueWordCounter = [];
+
 /*should probably create a function that translates the user's random words from English
 to actual separate string words that the computer understands... split?*/
 
@@ -27,12 +30,24 @@ function translateUserText(userBabble) {
 //now what. 
 
 function calculate(uniqueWordCount) {
-    for (var i = 0; i < result.length; i++) {
-        if (userText())
+    for (var i = 0; i < uniqueWordCount.length; i++) {
+        if (array_contains(userText, uniqueWordCount[i])) {
+            counter[uniqueWordCount[i]]++;
+        }
+        else {
+            words.push(uniqueWordCount[i]);
+            counter[result[i]] = 1;
+        }
     }
-}
+};
 
-//ugh how to connect this to html and not just console.log it though? 
+function array_contains(array, value) {
+    for (var i = 0; i < array.length; i++)
+        if (array[i] == value)
+            return true;
+    return false;
+};
+//I have no idea what I'm doing.
 
 
 
