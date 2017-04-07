@@ -65,3 +65,10 @@ $(document).ready(function() {
     /*the above looks more correct but i kind of just made the .show method up i don't
     actually think it's going to work?*/
 });
+
+/*I looked at the solution after three hours of this total and getting unproductively stuck,
+I didn't know how to connect this/hook this into my html at all. I am going to spend 
+some time today just going over JS in general. I still feel like I need more help on 
+understanding JS. I feel like 85% of the time I'm guessing. I need more auditory and visual
+help not just reading and Q&A sessions on Thinkful require actual questions that are more 
+specific than "I don't understand JavaScript." So.*/
